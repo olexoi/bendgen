@@ -1,0 +1,138 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+nav {
+  background-color: #fcfcf7;
+  height: 120px;
+  position: fixed;
+}
+
+nav .nav-item {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+nav .nav-item:hover {
+  border-bottom: 2px solid #FFEB85;
+}
+
+nav .languages {
+  position: relative;
+}
+
+nav .languages .lang-item {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+nav .languages .checked {
+  font-weight: 700;
+}
+
+nav .languages .devider {
+  position: absolute;
+  content: "";
+  left: 50%;
+  width: 2px;
+  background-color: #FFEB85;
+  height: 30px;
+}
+
+.section-1 {
+  margin-top: 120px;
+  position: relative;
+}
+
+.section-1 .section-heading {
+  font-size: 100px;
+  font-weight: 700;
+  position: relative;
+}
+
+.section-1 .section-heading span .text {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+}
+
+.section-1 .slogan {
+  font-size: 25px;
+  color: #636363;
+  margin-bottom: 40px;
+}
+
+.section-1 .button {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #ffd200;
+  font-weight: 700;
+  border-radius: 6px;
+  margin-top: 30px;
+  padding: 20px 60px;
+}
+
+.section-1 .circle {
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  background-color: #ffd200;
+  border-radius: 50%;
+  right: 10%;
+}
+
+.section-2 {
+  position: relative;
+  margin-top: 250px;
+}
+
+.section-2 .stats {
+  position: relative;
+}
+
+.section-2 .stats .circle {
+  display: block;
+  position: absolute;
+  left: -10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffeb85;
+  z-index: -1;
+}
+
+.section-2 .stats .number {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.section-2 .stats .number span {
+  color: #ffd200;
+}
+
+.section-2 .stats .text {
+  font-size: 20px;
+  color: #636363;
+  font-weight: 700;
+}
+
+.section-2 .devider-box {
+  position: absolute;
+  top: -220px;
+}
+
+.section-2 .devider-box .devider {
+  background-color: #ffd200;
+  height: 3px;
+  width: 400px;
+  margin: 140px;
+}
+/*# sourceMappingURL=style.css.map */
