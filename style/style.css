@@ -3,6 +3,12 @@
   color: black;
 }
 
+.heading-text {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
 nav {
   background-color: #fcfcf7;
   height: 120px;
@@ -67,6 +73,8 @@ nav .languages .devider {
   font-size: 25px;
   color: #636363;
   margin-bottom: 40px;
+  font-weight: 400;
+  line-height: 1.15;
 }
 
 .section-1 .button {
@@ -86,12 +94,27 @@ nav .languages .devider {
   position: absolute;
   background-color: #ffd200;
   border-radius: 50%;
-  right: 10%;
+  top: 20px;
+  left: 52%;
+  z-index: -1;
+}
+
+.section-1 .owl-carousel {
+  height: 500px;
+}
+
+.section-1 .owl-carousel .carousel-item {
+  display: block;
+}
+
+.section-1 .owl-carousel img {
+  height: 600px;
+  width: auto;
 }
 
 .section-2 {
   position: relative;
-  margin-top: 250px;
+  margin-top: 320px;
 }
 
 .section-2 .stats {
@@ -134,5 +157,226 @@ nav .languages .devider {
   height: 3px;
   width: 400px;
   margin: 140px;
+}
+
+.section-3 {
+  margin-top: 250px;
+  position: relative;
+}
+
+.section-3 .bcg-image1 {
+  background-image: url(/media/icons/Group17.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 312px;
+  height: 112px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  left: -5%;
+  top: -20px;
+}
+
+.section-3 .bcg-image2 {
+  background-image: url(/media/icons/Group21.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 220px;
+  height: 206px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  right: 0%;
+  bottom: 15%;
+}
+
+.section-3 .heading-text {
+  padding-bottom: 30px;
+}
+
+.section-3 .plain-text {
+  max-width: 560px;
+  color: #232323;
+  font-size: 18px;
+  font-family: 'Raleway', Arial, sans-serif;
+  line-height: 1.35;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.section-3 .contact-form {
+  width: 420px;
+}
+
+.section-3 .contact-form input {
+  color: #232323;
+  border: none;
+  border-bottom: 2px solid #ffd200;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 400;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.section-3 .contact-form input:focus {
+  outline: none;
+}
+
+.section-3 .contact-form label {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+
+.section-3 .contact-form .contact-btn {
+  color: #232323;
+  background-color: #ffd200;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  width: 220px;
+  height: 60px;
+  padding: 0 15px;
+  display: block;
+}
+
+.section-4 {
+  background-color: #fcfcf7;
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.section-4 .heading-text {
+  padding: 20px;
+}
+
+.section-4 img {
+  padding: 40px;
+}
+
+.section-4 .plain-text {
+  width: 200px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.section-5 {
+  margin-top: 300px;
+  position: relative;
+}
+
+.section-5 .heading-text {
+  padding: 40px 0;
+}
+
+.section-5 .contact-btn {
+  margin-top: 40px;
+}
+
+.section-5 .bcg-image {
+  width: 250px;
+  position: absolute;
+  top: -200px;
+  left: -5%;
+  height: 400px;
+  opacity: 0.6;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  background-image: url(/media/icons/Group29.svg);
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.section-6 {
+  margin-top: 200px;
+}
+
+.section-6 .heading-text {
+  margin-bottom: 100px;
+}
+
+.section-6 .text-box {
+  width: 560px;
+}
+
+.section-6 li {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.footer {
+  background-color: #fcfcf7;
+  margin-top: 100px;
+  padding: 60px 0;
+}
+
+.footer .logo-box {
+  border-right: 3px solid #ffd200;
+}
+
+.footer .contact-box img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer .contact-box a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.contact-btn {
+  color: #232323;
+  background-color: #ffd200;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  width: 220px;
+  height: 60px;
+  padding: 0 15px;
+  display: block;
+}
+
+.plain-text {
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.block-404 {
+  height: 100vh;
+  position: relative;
+}
+
+.block-404 .main-page-link {
+  color: black;
+}
+
+.block-404 .circle {
+  position: absolute;
+  background-color: #FFEB85;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-1 .section-heading {
+    font-size: 80px;
+  }
+  .section-1 .circle {
+    height: 400px;
+    width: 400px;
+  }
+  .section-6 .text-box {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
