@@ -3,6 +3,10 @@
   color: black;
 }
 
+.container-fluid {
+  margin: 0;
+}
+
 .heading-text {
   font-size: 60px;
   font-weight: 700;
@@ -63,6 +67,10 @@ nav .languages .devider {
   position: relative;
 }
 
+.section-1 .section-heading .heading-img {
+  width: 146px;
+}
+
 .section-1 .section-heading span .text {
   position: absolute;
   top: 50px;
@@ -99,15 +107,19 @@ nav .languages .devider {
   z-index: -1;
 }
 
-.section-1 .owl-carousel {
+.section-1 .carousel-box {
+  padding: 0;
+}
+
+.section-1 .carousel-box .owl-carousel {
   height: 500px;
 }
 
-.section-1 .owl-carousel .carousel-item {
+.section-1 .carousel-box .owl-carousel .carousel-item {
   display: block;
 }
 
-.section-1 .owl-carousel img {
+.section-1 .carousel-box .owl-carousel img {
   height: 600px;
   width: auto;
 }
@@ -367,9 +379,189 @@ nav .languages .devider {
   z-index: -1;
 }
 
-@media screen and (max-width: 1200px) {
+.mobile-hidden {
+  display: block !important;
+}
+
+@media screen and (max-width: 575px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+  .heading-text {
+    font-size: 20px;
+  }
+  .plain-text {
+    font-size: 13px;
+  }
+  .section-4 img {
+    padding: 30px;
+  }
+  .section-4 .plain-text {
+    font-size: 13px;
+  }
+  .section-6 li {
+    font-size: 13px;
+  }
+  .section-6 .text-box {
+    width: 100%;
+  }
+  .section-2 .stats .number {
+    font-size: 20px;
+  }
+  .section-2 .stats .text {
+    font-size: 12px;
+  }
+  .section-2 .stats .circle {
+    left: -6px;
+    top: -4px;
+    width: 20px;
+    height: 20px;
+  }
+  .section-2 .devider-box {
+    top: -100px;
+  }
+  .section-2 .devider-box .devider {
+    width: 60%;
+    margin: 60px;
+  }
+  .section-1 .section-heading {
+    font-size: 40px;
+  }
+  .section-1 .section-heading .heading-img {
+    width: 50px;
+  }
+  .section-1 .section-heading span .text {
+    top: 10px;
+    left: 52px;
+  }
+  .section-1 .slogan {
+    font-size: 15px;
+  }
+  .section-1 .button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .section-1 .circle {
+    height: 160px;
+    width: 160px;
+    left: 50%;
+  }
+  .section-1 .carousel-box .owl-carousel {
+    height: 240px;
+  }
+  .section-1 .carousel-box .owl-carousel img {
+    height: 240px;
+    overflow: hidden;
+  }
+  .footer .logo-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: none;
+    border-bottom: 2px solid #ffd200;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .footer .contact-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer .contact-box img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer .contact-box a {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .section-1 .section-heading {
+    font-size: 40px;
+  }
+  .section-1 .section-heading .heading-img {
+    width: 50px;
+  }
+  .section-1 .section-heading span .text {
+    top: 10px;
+    left: 52px;
+  }
+  .section-1 .slogan {
+    font-size: 15px;
+  }
+  .section-1 .button {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  .section-1 .circle {
+    height: 70%;
+    width: 30%;
+    left: 50%;
+  }
+  .section-1 .carousel-box .owl-carousel {
+    height: 280px;
+  }
+  .section-1 .carousel-box .owl-carousel img {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .section-1 .section-heading {
+    font-size: 60px;
+  }
+  .section-1 .section-heading .heading-img {
+    width: 70px;
+  }
+  .section-1 .section-heading span .text {
+    top: 12px;
+    left: 72px;
+  }
+  .section-1 .slogan {
+    font-size: 18px;
+  }
+  .section-1 .button {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+  .section-1 .circle {
+    top: 0;
+    height: 350px;
+    width: 350px;
+  }
+  .section-1 .carousel-box .owl-carousel {
+    height: 350px;
+  }
+  .section-1 .carousel-box .owl-carousel img {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .section-1 .carousel-box .owl-carousel {
+    height: 450px;
+  }
+  .section-1 .carousel-box .owl-carousel img {
+    height: 450px;
+  }
   .section-1 .section-heading {
     font-size: 80px;
+  }
+  .section-1 .section-heading .heading-img {
+    width: 146px;
+  }
+  .section-1 .section-heading span .text {
+    position: absolute;
+    top: 69px;
+    left: 150px;
   }
   .section-1 .circle {
     height: 400px;

@@ -2,7 +2,9 @@
     font-family: 'Raleway', sans-serif;
     color: black;
 }
-
+.container-fluid{
+    margin: 0;
+}
 .heading-text {
     font-size: 60px;
     font-weight: 700;
@@ -51,7 +53,6 @@ nav {
         }
     }
 }
-
 .section-1 {
     margin-top: 120px;
     position: relative;
@@ -60,7 +61,9 @@ nav {
         font-size: 100px;
         font-weight: 700;
         position: relative;
-
+        .heading-img{
+            width: 146px;
+        }
         span {
             .text {
                 position: absolute;
@@ -99,20 +102,25 @@ nav {
         left: 52%;
         z-index: -1;
     }
-    .owl-carousel{
-        height: 500px;
-        .carousel-item{
-            display: block;
-        }
-        .owl-item{
-            // width: 100% !important;
-        } 
-        img{
-            height: 600px;
-            width: auto;
+    .carousel-box{
+        padding: 0;
+        .owl-carousel{
+            height: 500px;
+            .carousel-item{
+                display: block;
+            }
+            // .owl-item{
+            //     // width: 100% !important;
+            // } 
+            img{
+                height: 600px;
+                width: auto;
+            }
         }
     }
+    
 }
+
 
 .section-2 {
     position: relative;
@@ -362,11 +370,222 @@ nav {
         z-index: -1;
     }
 }
-
-@media screen and (max-width: 1200px) {
+.mobile-hidden{
+    display: block !important;
+}
+@media screen and (max-width: 575px) {
+    .mobile-hidden{
+        display: none !important;
+    }
+    .heading-text{
+        font-size: 20px;
+    }
+    .plain-text{
+     
+        font-size: 13px;
+    }
+    .section-4{
+        img{
+            padding: 30px;
+        }
+        .plain-text{
+            font-size: 13px;
+        }
+    }
+    .section-6{
+        li{
+            font-size: 13px;
+        }
+        .text-box{
+            width: 100%;
+        }
+    }
+    .section-2{
+        .stats{
+            .number{
+                font-size: 20px;
+            }
+            .text{
+                font-size: 12px;
+            }
+            .circle{
+                left: -6px;
+                top: -4px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+        .devider-box{
+            top: -100px;
+            .devider{
+                width: 60%;
+                margin: 60px;
+            }
+        }
+    }
     .section-1{
         .section-heading{
+            font-size: 40px;
+            .heading-img{
+                width: 50px;
+            }
+            span{
+                .text{
+                    top: 10px;
+                    left: 52px;
+                }
+            }
+        }
+        .slogan{
+            font-size: 15px;
+        }
+        .button{
+            font-size: 12px;
+            padding: 10px 20px;
+        }
+        .circle{
+            height: 160px;
+            width: 160px;
+            left: 50%;
+        }
+        .carousel-box{
+            .owl-carousel{
+                height: 240px;
+                img{
+                    height: 240px;
+                    // width: 100%;
+                    overflow: hidden;
+                }
+            }
+        }
+        
+    }
+    .footer{
+        .logo-box{
+            display: flex;
+            align-items: center !important;
+            justify-content: center;
+            border: none;
+            border-bottom: 2px solid #ffd200;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .contact-box{
+            display: flex;
+            // align-items: flex-start !important;
+            // justify-content: start !important;
+            // margin-left: 25%;
+            img{
+                width: 30px;
+                height: 30px;
+            }
+            a{
+                font-size: 12px;
+                padding: 10px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 576px) {
+    // .mobile-hidden{
+    //     display: none !important;
+    // }
+    
+    .section-1{
+        .section-heading{
+            font-size: 40px;
+            .heading-img{
+                width: 50px;
+            }
+            span{
+                .text{
+                    top: 10px;
+                    left: 52px;
+                }
+            }
+        }
+        .slogan{
+            font-size: 15px;
+        }
+        .button{
+            font-size: 12px;
+            padding: 10px 20px;
+        }
+        .circle{
+            height: 70%;
+            width: 30%;
+            left: 50%;
+        }
+        .carousel-box{
+            .owl-carousel{
+                height: 280px;
+                img{
+                    height: 280px;
+                }
+            }
+        }
+        
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .section-1{
+        .section-heading{
+            font-size: 60px;
+            .heading-img{
+                width: 70px;
+            }
+            span{
+                .text{
+                    top: 12px;
+                    left: 72px;
+                }
+            }
+        }
+        .slogan{
+            font-size: 18px;
+        }
+        .button{
+            font-size: 14px;
+            padding: 15px 30px;
+        }
+        .circle{
+            top: 0;
+            height: 350px;
+            width: 350px;
+        }
+        .carousel-box{
+            .owl-carousel{
+                height: 350px;
+                img{
+                    height: 350px;
+                }
+            }
+        }
+    }
+}   
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .section-1{
+        // overflow-y: hidden;
+        .carousel-box{
+            .owl-carousel{
+                height: 450px;
+                img{
+                    height: 450px;
+                }
+            }
+        }
+        .section-heading{
             font-size: 80px;
+            .heading-img{
+                width: 146px;
+            }
+            span {
+                .text {
+                    position: absolute;
+                    top: 69px;
+                    left: 150px;
+                }
+            }
         }
         .circle{
             height: 400px;
@@ -377,5 +596,11 @@ nav {
         .text-box{
             width: 100%;
         }
-    }
-}
+    }    
+}   
+@media screen and (min-width: 1200px) {
+   
+}   
+@media screen and (min-width: 1400px) {
+    
+}   
