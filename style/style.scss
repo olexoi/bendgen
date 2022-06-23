@@ -377,6 +377,50 @@ nav {
     .mobile-hidden{
         display: none !important;
     }
+    .contact-btn{
+        font-size: 12px;
+        width: 130px;
+        height: 35px;
+    }
+    nav{
+        height: auto;
+    }
+    .nav-mobile {
+        overflow: hidden;
+        background-color: #fcfcf7;
+        position: sticky;
+        #myLinks {
+            display: none;
+            z-index: 100;
+        }
+        a {
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+            display: block;
+        }
+        .icon {
+            // background: black;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 25px;
+            padding: 16px 16px;
+
+        }
+        a:hover {
+            // background-color:;
+            color: black;
+        }
+        .active {
+            background-color: #fcfcf7;
+            color: black;
+          }
+    }
+
+      
     .heading-text{
         font-size: 20px;
     }
@@ -384,9 +428,33 @@ nav {
      
         font-size: 13px;
     }
+    .section-3{
+        .plain-text{
+            font-size: 13px;
+            max-width: 100%;
+        }
+        .contact-form{
+            label{
+                font-size: 13px;
+            }
+            input{
+                font-size: 13px;
+                  padding: 26px 20px 10px 20px!important;
+                margin-bottom: 15px;
+            }
+            .contact-btn{
+                font-size: 12px;
+                width: 150px;
+                height: 35px;
+            }
+        }
+    }
     .section-4{
         img{
-            padding: 30px;
+            padding: 0;
+            margin: 30px;
+            height: 60px;
+            width: 60px;
         }
         .plain-text{
             font-size: 13px;

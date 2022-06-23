@@ -387,14 +387,74 @@ nav .languages .devider {
   .mobile-hidden {
     display: none !important;
   }
+  .contact-btn {
+    font-size: 12px;
+    width: 130px;
+    height: 35px;
+  }
+  nav {
+    height: auto;
+  }
+  .nav-mobile {
+    overflow: hidden;
+    background-color: #fcfcf7;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  .nav-mobile #myLinks {
+    display: none;
+    z-index: 100;
+  }
+  .nav-mobile a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  .nav-mobile .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 25px;
+    padding: 16px 16px;
+  }
+  .nav-mobile a:hover {
+    color: black;
+  }
+  .nav-mobile .active {
+    background-color: #fcfcf7;
+    color: black;
+  }
   .heading-text {
     font-size: 20px;
   }
   .plain-text {
     font-size: 13px;
   }
+  .section-3 .plain-text {
+    font-size: 13px;
+    max-width: 100%;
+  }
+  .section-3 .contact-form label {
+    font-size: 13px;
+  }
+  .section-3 .contact-form input {
+    font-size: 13px;
+    padding: 26px 20px 10px 20px !important;
+    margin-bottom: 15px;
+  }
+  .section-3 .contact-form .contact-btn {
+    font-size: 12px;
+    width: 150px;
+    height: 35px;
+  }
   .section-4 img {
-    padding: 30px;
+    padding: 0;
+    margin: 30px;
+    height: 60px;
+    width: 60px;
   }
   .section-4 .plain-text {
     font-size: 13px;
