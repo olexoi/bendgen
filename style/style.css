@@ -383,9 +383,16 @@ nav .languages .devider {
   display: block !important;
 }
 
+.desktop-hidden {
+  display: none !important;
+}
+
 @media screen and (max-width: 575px) {
   .mobile-hidden {
     display: none !important;
+  }
+  .desktop-hidden {
+    display: block !important;
   }
   .contact-btn {
     font-size: 12px;
@@ -543,7 +550,7 @@ nav .languages .devider {
   }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .section-1 .section-heading {
     font-size: 40px;
   }
@@ -560,11 +567,6 @@ nav .languages .devider {
   .section-1 .button {
     font-size: 12px;
     padding: 10px 20px;
-  }
-  .section-1 .circle {
-    height: 70%;
-    width: 30%;
-    left: 50%;
   }
   .section-1 .carousel-box .owl-carousel {
     height: 280px;

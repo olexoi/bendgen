@@ -373,9 +373,15 @@ nav {
 .mobile-hidden{
     display: block !important;
 }
+.desktop-hidden{
+    display: none !important;
+}
 @media screen and (max-width: 575px) {
     .mobile-hidden{
         display: none !important;
+    }
+    .desktop-hidden{
+        display: block !important;
     }
     .contact-btn{
         font-size: 12px;
@@ -386,6 +392,7 @@ nav {
         height: auto;
     }
     .nav-mobile {
+        
         overflow: hidden;
         background-color: #fcfcf7;
         position: sticky;
@@ -554,7 +561,7 @@ nav {
         }
     }
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
     // .mobile-hidden{
     //     display: none !important;
     // }
@@ -579,11 +586,11 @@ nav {
             font-size: 12px;
             padding: 10px 20px;
         }
-        .circle{
-            height: 70%;
-            width: 30%;
-            left: 50%;
-        }
+        // .circle{
+        //     // height: 70%;
+        //     // width: 30%;
+        //     // left: 50%;
+        // }
         .carousel-box{
             .owl-carousel{
                 height: 280px;
@@ -666,7 +673,7 @@ nav {
         }
     }    
 }   
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
    
 }   
 @media screen and (min-width: 1400px) {
