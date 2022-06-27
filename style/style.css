@@ -419,6 +419,14 @@ nav .languages .devider {
     font-size: 15px;
     display: block;
   }
+  .nav-mobile .languages {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .nav-mobile .languages a {
+    font-size: 16px;
+  }
   .nav-mobile .icon {
     display: block;
     position: absolute;
@@ -440,6 +448,9 @@ nav .languages .devider {
   .plain-text {
     font-size: 13px;
   }
+  .section-3 {
+    margin-top: 50px;
+  }
   .section-3 .plain-text {
     font-size: 13px;
     max-width: 100%;
@@ -457,6 +468,9 @@ nav .languages .devider {
     width: 150px;
     height: 35px;
   }
+  .section-4 {
+    margin-top: 50px;
+  }
   .section-4 img {
     padding: 0;
     margin: 30px;
@@ -466,11 +480,18 @@ nav .languages .devider {
   .section-4 .plain-text {
     font-size: 13px;
   }
+  .section-6 {
+    margin-top: 50px;
+  }
   .section-6 li {
     font-size: 13px;
   }
   .section-6 .text-box {
+    padding-top: 30px;
     width: 100%;
+  }
+  .section-2 {
+    margin-top: 50px;
   }
   .section-2 .stats .number {
     font-size: 20px;
@@ -490,6 +511,9 @@ nav .languages .devider {
   .section-2 .devider-box .devider {
     width: 60%;
     margin: 60px;
+  }
+  .section-1 {
+    margin-top: 50px;
   }
   .section-1 .section-heading {
     font-size: 40px;
@@ -519,6 +543,12 @@ nav .languages .devider {
   .section-1 .carousel-box .owl-carousel img {
     height: 240px;
     overflow: hidden;
+  }
+  .section-5 {
+    margin-top: 50px;
+  }
+  .footer {
+    margin-top: 50px;
   }
   .footer .logo-box {
     display: -webkit-box;

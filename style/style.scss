@@ -407,6 +407,12 @@ nav {
             font-size: 15px;
             display: block;
         }
+        .languages{
+            display: flex !important;
+            a{
+                font-size: 16px;
+            }
+        }
         .icon {
             // background: black;
             display: block;
@@ -436,6 +442,7 @@ nav {
         font-size: 13px;
     }
     .section-3{
+        margin-top: 50px;
         .plain-text{
             font-size: 13px;
             max-width: 100%;
@@ -457,6 +464,7 @@ nav {
         }
     }
     .section-4{
+        margin-top: 50px;
         img{
             padding: 0;
             margin: 30px;
@@ -468,14 +476,18 @@ nav {
         }
     }
     .section-6{
+        margin-top: 50px;
+
         li{
             font-size: 13px;
         }
         .text-box{
+            padding-top: 30px;
             width: 100%;
         }
     }
     .section-2{
+        margin-top: 50px;
         .stats{
             .number{
                 font-size: 20px;
@@ -499,6 +511,7 @@ nav {
         }
     }
     .section-1{
+        margin-top: 50px;
         .section-heading{
             font-size: 40px;
             .heading-img{
@@ -535,7 +548,11 @@ nav {
         }
         
     }
+    .section-5{
+        margin-top: 50px;
+    }
     .footer{
+        margin-top: 50px;
         .logo-box{
             display: flex;
             align-items: center !important;
